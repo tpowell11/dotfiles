@@ -1,0 +1,16 @@
+general {
+	output_format = "i3bar"
+	colors = true
+	interval = 1
+}
+
+order += "tztime local"
+order += "battery 0"
+
+tztime local {
+	format = "%Y-%m-%dT%H:%M:%S"
+}
+
+battery "0" {
+	path = "/sys/class/power_supply/BAT0/uevent"
+}
