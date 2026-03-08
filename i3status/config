@@ -4,8 +4,8 @@ general {
 	interval = 1
 }
 
-order += "tztime local"
 order += "battery 0"
+order += "tztime local"
 
 tztime local {
 	format = "%Y-%m-%dT%H:%M:%S"
