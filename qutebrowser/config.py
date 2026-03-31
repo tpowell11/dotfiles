@@ -1,6 +1,7 @@
 c.tabs.position = "left"
 #bind('<Ctrl-r>', 'reload')
-
+config.load_autoconfig(False)
+c.auto_save.session = True
 
 # base16-qutebrowser (https://github.com/theova/base16-qutebrowser)
 # Scheme name: Colors

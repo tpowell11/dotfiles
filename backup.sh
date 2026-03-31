@@ -3,6 +3,7 @@
 CPRE="/home/thoma/.config/"
 
 backup() {
+  echo "backing up $CPRE$1"
   cp -r $CPRE$1/ ./
 }
 

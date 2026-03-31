@@ -203,5 +203,4 @@ bindsym Print exec NOW=$(date +%d-%b-%Y_%H-%M-%S) && maim --format png --select 
 ### HOST DEPENDENT CONFIGURATION FOLLOWS
 ### EDIT IN THE HOSTNAME FILE
 
-#%HOSTCFG
-
+# This host does not have additional configuration.
